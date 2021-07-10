@@ -1,0 +1,122 @@
+nav a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1abc9c;
+    padding: 30px 20px;
+}
+
+.nav {
+    width: 200px;
+}
+
+.main {
+    display: flex;
+    height: 500px;
+    justify-content: stretch;
+}
+
+#nav-1 {
+    background-color: #eeeeee;
+}
+
+#nav-2 {
+    flex-grow: 1;
+    background-image: linear-gradient( #56ab2f, #a8e063);
+    color: black;
+    padding: 20px;
+    text-align: justify;
+}
+
+#nav-1 ul {}
+
+#nav-1 ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#nav-1 ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+}
+
+.img {
+    width: 1fr;
+    height: 200px;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/0a619155c82b694e2267f3ed5c752919b707e33b/ef36f/static/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+}
+
+.day {
+    height: 100px;
+    border: 2px solid lightgray;
+    background-color: #ecf0f1;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+}
+
+.bangla {
+    color: green;
+    font-size: 1.5em;
+}
+
+.arbi {
+    color: blue;
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 25px;
+    background-color: #111;
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+span {
+    color: orange;
+}
+
+.other-month {
+    background-color: #16a085;
+}
+
+.friday {
+    color: red;
+}
+
+.eid {
+    color: red;
+}
+
+.day-name {
+    font-size: 2em;
+    background-color: #d35400;
+}
